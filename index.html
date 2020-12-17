@@ -14,6 +14,8 @@
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Cousine:wght@400;700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,300&display=swap" rel="stylesheet">
   <!-- Bootstrap CSS File -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
@@ -33,7 +35,7 @@
     <div class="container py-2 py-md-5">
       <div class="row align-items-start">
         <div class="col-md-6">
-          <ul class="custom-menu">
+          <ul class="custom-menu" style="font-family:Montserrat">
             <li class="active"><a href="index.html">Home</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -42,7 +44,7 @@
         <div class="col-md-6 d-none d-md-block  mr-auto">
           <div class="tweet d-flex">
             <div>
-              <p> We create stunning visual design for you. <br> </p>
+              <p style="font-weight:500; ; font-family:Montserrat;font-size:30px; color:white"> We create stunningly clean visual design for you<br> </p>
             </div>
           </div>
         </div>
@@ -66,44 +68,54 @@
       <div class="container">
         <div class="row mb-5 align-items-center">
           <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
-            <h2 style="font-weight:700">Calibri</h2>
-            <p class="mb-0">Digital Design </p>
+            <h2 style="font-weight:700; font-size:100px; font-family:Montserrat">Calibri</h2>
+            <p class="mb-0" style="font-size:90px; font-family:Montserrat">Digital Design </p>
           </div>
-          <div class="col-md-12 col-lg-6 text-left text-lg-right" data-aos="fade-up" data-aos-delay="100">
-            <div id="filters" class="filters">
-              <!-- <a href="#" data-filter="*" class="active">All</a> -->
-              <!-- <a href="#" data-filter=".design">Design</a> -->
-              <!-- <a href="#" data-filter=".branding">UI/UX</a> -->
-              <!-- <a href="#" data-filter=".photography">Graphics</a> -->
-            </div>
+
+        </div>
+        <div class="col-md-12 col-lg-12 text-left text-lg-right" data-aos="fade-up" data-aos-delay="100" style="padding-bottom:30px">
+          <div id="filters" class="filters">
+            <a href="#" data-filter="*" class="active"  style="font-size:20px; font-family:Montserrat"> Selected work</a>
+            <!-- <a href="#" data-filter=".design">Design</a> -->
+            <!-- <a href="#" data-filter=".branding">UI/UX</a> -->
+            <!-- <a href="#" data-filter=".photography">Graphics</a> -->
           </div>
         </div>
         <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
-          <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
+          <div class="item web col-sm-6 col-md-6 col-lg-6 mb-6">
             <a href="" class="item-wrap fancybox">
               <div class="work-info">
-                <h3>findbenji.com</h3>
-                <span>Web App</span>
-              </div>
-              <img class="img-fluid" src="img/img1.png">
-            </a>
-          </div>
-          <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>Dog Adoption App</h3>
+                <h3>Benji Pet Adoption</h3>
                 <span>Mobile App</span>
               </div>
-              <img class="img-fluid" src="img/img5.png">
+              <img class="img-fluid" src="img/s1.png">
             </a>
           </div>
-          <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
+          <div class="item photography col-sm-6 col-md-6 col-lg-6 mb-6">
             <a href="" class="item-wrap fancybox">
               <div class="work-info">
-                <h3>Lamphyris Logo</h3>
-                <span>Graphics</span>
+                <h3>ReachHEART</h3>
+                <span>Website Design</span>
               </div>
-              <img class="img-fluid" src="img/img3.png">
+              <img class="img-fluid" src="img/s2.png">
+            </a>
+          </div>
+          <div class="item branding col-sm-6 col-md-6 col-lg-6 mb-6">
+            <a href="" class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>Biobay Health</h3>
+                <span>Branding & Website Design</span>
+              </div>
+              <img class="img-fluid" src="img/s4.png">
+            </a>
+          </div>
+          <div class="item branding col-sm-6 col-md-6 col-lg-6 mb-6">
+            <a href="" class="item-wrap fancybox">
+              <div class="work-info">
+                <h3>BioBay</h3>
+                <span>Mobile App</span>
+              </div>
+              <img class="img-fluid" src="img/s3.png">
             </a>
           </div>
         </div>
@@ -115,7 +127,7 @@
       <div class="container">
         <div class="row mb-4 align-items-center">
           <div class="col-md-6" data-aos="fade-up">
-            <h2>Services</h2>
+            <h2 style="font-weight:700; font-size:60px; font-family:Montserrat">Services</h2>
           </div>
         </div>
       </div>
@@ -125,8 +137,8 @@
           <div class="row">
             <div class="col-12 col-sm-6 col-md-6 col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
               <span class="la la-code la-3x mb-4"></span>
-              <h3 class="h3 mb-2">Web Design</h3>
-              <ul class="list-unstyled list-line">
+              <h3 class="h3 mb-2" style="font-weight:700; font-size:30px; font-family:Montserrat">Web Design</h3><br>
+              <ul class="list-unstyled list-line" style="font-family:Montserrat">
                 <li>Responsive Websites</li>
                 <li>Web Applications</li>
                 <li>Data Visualizations</li>
@@ -134,8 +146,8 @@
             </div>
             <div class="col-12 col-sm-6 col-md-6 col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="100">
               <span class="la la-mobile la-3x mb-4"></span>
-              <h3 class="h3 mb-2">Mobile Applications</h3>
-              <ul class="list-unstyled list-line">
+              <h3 class="h3 mb-2"style="font-weight:700; font-size:30px; font-family:Montserrat">Mobile Applications</h3><br>
+              <ul class="list-unstyled list-line" style="font-family:Montserrat">
                 <li>Rapid Prototyping</li>
                 <li>Native Apps</li>
                 <li>API Integrations</li>
@@ -143,16 +155,16 @@
             </div>
             <div class="col-12 col-sm-6 col-md-6 col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
               <span class="la la-pencil-square-o la-3x mb-4"></span>
-              <h3 class="h3 mb-2">Graphic Design</h3>
-              <ul class="list-unstyled list-line">
+              <h3 class="h3 mb-2" style="font-weight:700; font-size:30px; font-family:Montserrat">Graphic Design</h3><br>
+              <ul class="list-unstyled list-line" style="font-family:Montserrat">
                 <li>Icon and Logo Design</li>
                 <li>Marketing and Branding Materials</li>
               </ul>
             </div>
             <div class="col-12 col-sm-6 col-md-6 col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="100">
               <span class="la la-play la-3x mb-4"></span>
-              <h3 class="h3 mb-2">Visuals</h3>
-              <ul class="list-unstyled list-line">
+              <h3 class="h3 mb-2" style="font-weight:700; font-size:30px; font-family:Montserrat">Visuals</h3><br>
+              <ul class="list-unstyled list-line" style="font-family:Montserrat">
                 <li>Video Production</li>
                 <li>Video Editing</li>
               </ul>
@@ -160,22 +172,26 @@
           </div>
         </div>
       </div>
-
+<br><br>
       <div class="site-section pb-0" data-aos="fade-up" data-aos-delay="" id="contact" >
-        <div class="container" style="padding-top:40px">
-            <div class="testimonial-wrap">
+        <div class="container" style="padding-top:40px; background-color: #0d1e2d">
+            <div class="testimonial-wrap"  style=" background-color: #0d1e2d; color:white">
+              <h2 style="font-weight:700; font-size:60px; font-family:Montserrat">Contact Us</h2><br><br><br>
           <div class="row">
-            <div class="col-12 col-sm-6 col-md-6 col-lg-6 mb-5">
-              <strong class="d-block mb-1">Mailing Address</strong>
-              <span>Calibri Inc.</span><br>
-              <span>P.O. Box 12222</span><br>
-              <span>La Jolla, CA 92039</span>
-            </div>
+
+
             <div class="col-12 col-sm-6 col-md-6 col-lg-6 mb-5" >
-              <strong class="d-block mb-1">Email</strong>
-              <a href="mailto:info@calibri.co"><span style="color:#0d1e2d" >info@calibri.co</span></a> 
+              <strong class="d-block mb-2" style="font-weight:700; font-size:30px; font-family:Montserrat">Email</strong>
+              <span style="font-family:Montserrat">info@calibri.co</span>
             </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 mb-5">
+                <strong class="d-block mb-2" style="font-weight:700; font-size:30px; font-family:Montserrat">Mailing Address</strong>
+                <span style="font-family:Montserrat">Calibri Inc.</span><br>
+                <span style="font-family:Montserrat">P.O. Box 12222</span><br>
+                <span style="font-family:Montserrat">La Jolla, CA 92039</span>
+              </div>
           </div>
+          <h2 style="font-weight:700; font-size:15px; font-family:Montserrat">@2020 Calibri INC</h2><br><br><br>
         </div>
         </div>
       </div>
@@ -200,3 +216,5 @@
 </body>
 
 </html>
+
+
